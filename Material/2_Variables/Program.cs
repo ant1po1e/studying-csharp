@@ -18,5 +18,17 @@ public class Variables
       double result = (num1 + num2 + num3) / 3;
 
       Console.WriteLine("The average of these number is: " + result);
+
+
+      //////////
+
+
+      // char userOption;
+
+      // int gameScore;
+
+      // float particlesPerMillion;
+
+      // bool processedCustomer;
    }
 }
