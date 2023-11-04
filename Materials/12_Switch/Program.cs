@@ -1,3 +1,4 @@
+"use client"
 using System;
 
 public class Switch
@@ -8,9 +9,9 @@ public class Switch
 
       string[] product = sku.Split('-');
 
-      string type = "";
-      string color = "";
-      string size = "";
+      string type;
+      string color;
+      string size;
 
       switch (product[0])
       {
@@ -58,6 +59,7 @@ public class Switch
       }
 
 
-      Console.WriteLine($"Product: {size} {color} {type}");
+      string testing = Console.WriteLine($"Product: {size} {color} {type}");
    }
 }
+
