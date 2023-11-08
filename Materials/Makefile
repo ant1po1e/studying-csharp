@@ -5,9 +5,9 @@
 # 	@./cmd/run.sh
 
 compile:
-	@mcs -out:./21_MethodParams/Program.exe ./21_MethodParams/Program.cs
+	@mcs -out:./22_Exception/Program.exe ./22_Exception/Program.cs
 
 run:
-	@mono ./21_MethodParams/Program.exe
+	@mono ./22_Exception/Program.exe
 
 .PHONY: compile run

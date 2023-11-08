@@ -5,9 +5,9 @@
 # 	@./cmd/run.sh
 
 compile:
-	@mcs -out:./PettingZoo/Program.exe ./PettingZoo/Program.cs
+	@mcs -out:./UnitTest/Program.exe ./UnitTest/Program.cs
 
 run:
-	@mono ./PettingZoo/Program.exe
+	@mono ./UnitTest/Program.exe
 
 .PHONY: compile run
